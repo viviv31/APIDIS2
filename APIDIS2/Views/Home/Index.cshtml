@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model IEnumerable<APIDIS2.Models.Fireball_model.description_fireball>
+
+<h2>Symbols</h2>
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Date
+            </th>
+            <th>
+                Energy
+            </th>
+            <th>
+                Impact_e
+            </th>
+            <th>
+                latitude
+            </th>
+            <th>
+                lat_dir
+            </th>
+            <th>
+                longitude
+            </th>
+            <th>
+                long_dir
+            </th>
+            <th>
+                altitude
+            </th>
+            <th>
+                velocity
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.energy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.impact_e)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.latitude)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lat_dir)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.longitude)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.long_dir)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.altitude)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.velocity)
+            </td>
+        </tr>
+        }
+
+        @{
+            Model.Count();
+        }
+    </tbody>
+</table>
+<tr>
+    <td>
+        <a id="dbopt" asp-controller="Home" asp-action="PopulateSymbols"><img src="~/img/save_button.jpg" /></a>
+    </td>
+</tr>

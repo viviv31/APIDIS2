@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIDIS2", "APIDIS2\APIDIS2.csproj", "{F22ABCE0-E102-48FB-B59B-AE33E57B82EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F22ABCE0-E102-48FB-B59B-AE33E57B82EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F22ABCE0-E102-48FB-B59B-AE33E57B82EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F22ABCE0-E102-48FB-B59B-AE33E57B82EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F22ABCE0-E102-48FB-B59B-AE33E57B82EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76EF56A3-3C65-44EC-A5D9-209CB2C5C8E9}
+	EndGlobalSection
+EndGlobal
